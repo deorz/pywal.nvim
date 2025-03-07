@@ -143,6 +143,20 @@ M.highlights_base = function(colors)
     GitSignsCurrentLineBlame = { fg = colors.color8, bg = colors.transparent },
     GitSignsDelete = { fg = colors.color1 }, -- diff mode: Deleted line |diff.txt|
 
+    -- Snacks
+    SnacksPickerDir = { fg = colors.color1 },
+    SnacksWinKeySep = { fg = colors.color1 },
+    SnacksDashboardDir = { fg = colors.color1 },
+    SnacksImageLoading = { fg = colors.color1 },
+    SnacksPickerTotals = { fg = colors.color1 },
+    SnacksPickerBufFlags = { fg = colors.color1 },
+    SnacksPickerKeymapRhs = { fg = colors.color1 },
+    SnacksPickerPathHidden = { fg = colors.color1 },
+    SnacksPickerPathIgnored = { fg = colors.color1 },
+    SnacksPickerUnselected = { fg = colors.color1 },
+    SnacksPickerGitStatusIgnored = { fg = colors.color1 },
+    SnacksPickerGitStatusUntracked = { fg = colors.color1 },
+
     -- Illuminate
     illuminatedCurWord = { bg = colors.foreground },
     illuminatedWord = { bg = colors.foreground },
