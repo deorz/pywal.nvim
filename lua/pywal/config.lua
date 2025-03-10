@@ -4,13 +4,6 @@ M.highlights_base = function(colors)
   return {
     Boolean = { fg = colors.color5 },
     Character = { fg = colors.color12 },
-    CmpDocumentationBorder = { fg = colors.foreground, bg = colors.transparent },
-    CmpItemAbbr = { fg = colors.foreground, bg = colors.transparent },
-    CmpItemAbbrDeprecated = { fg = colors.color2, bg = colors.transparent },
-    CmpItemAbbrMatch = { fg = colors.color7, bg = colors.transparent },
-    CmpItemAbbrMatchFuzzy = { fg = colors.color7, bg = colors.transparent },
-    CmpItemKind = { fg = colors.color4, bg = colors.transparent },
-    CmpItemMenu = { fg = colors.color2, bg = colors.transparent },
     ColorColumn = { bg = colors.background },
     Comment = { fg = colors.color8 },
     Conceal = { fg = colors.color4, bg = colors.transparent },
@@ -156,6 +149,13 @@ M.highlights_base = function(colors)
     SnacksPickerUnselected = { fg = colors.color1 },
     SnacksPickerGitStatusIgnored = { fg = colors.color1 },
     SnacksPickerGitStatusUntracked = { fg = colors.color1 },
+
+    -- BlinkCmp
+    BlinkCmpDocBorder = { fg = colors.foreground, bg = colors.transparent },
+    BlinkCmpGhostText = { fg = colors.color1, bg= colors.transparent },
+    BlinkCmpMenuSelection = { fg = colors.color11, bg = colors.transparent },
+    BlinkCmpKind = { fg = colors.color4, bg = colors.transparent },
+    BlinkCmpMenu = { fg = colors.color2, bg = colors.transparent },
 
     -- Illuminate
     illuminatedCurWord = { bg = colors.foreground },
