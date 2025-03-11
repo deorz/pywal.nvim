@@ -98,13 +98,6 @@ M.highlights_base = function(colors)
     healthWarning = { fg = colors.color5 },
     lCursor = { fg = colors.foreground, bg = colors.cursor },
 
-    -- BetterWhitespace
-    ExtraWhitespace = { fg = colors.color8, bg = colors.background },
-
-    -- BufferLine
-    BufferLineFill = { bg = colors.transparent },
-    BufferLineIndicatorSelected = { fg = colors.color5 },
-
     -- diagnostics
     DiagnosticError = { fg = colors.color9 },
     DiagnosticHint = { fg = colors.color14 },
@@ -155,96 +148,10 @@ M.highlights_base = function(colors)
     BlinkCmpGhostText = { fg = colors.color1, bg= colors.transparent },
     BlinkCmpMenuSelection = { fg = colors.color11, bg = colors.transparent },
     BlinkCmpKind = { fg = colors.color4, bg = colors.transparent },
-    BlinkCmpMenu = { fg = colors.color2, bg = colors.transparent },
-
-    -- Illuminate
-    illuminatedCurWord = { bg = colors.foreground },
-    illuminatedWord = { bg = colors.foreground },
-
-    -- Indent Blank Line
-    IblIndent = { fg = colors.color8, bg = colors.transparent },
-    IblScope = { fg = colors.color7, bg = colors.transparent },
-    -- IblWhitespace = { fg = colors.color8, bg = colors.background },
-
-    -- LspSaga
-    DefinitionCount = { fg = colors.color6 },
-    DefinitionIcon = { fg = colors.color7 },
-    LspFloatWinBorder = { fg = colors.foreground },
-    LspFloatWinNormal = { bg = colors.transparent },
-    LspSagaBorderTitle = { fg = colors.color7 },
-    LspSagaCodeActionBorder = { fg = colors.color7 },
-    LspSagaCodeActionContent = { fg = colors.color6 },
-    LspSagaCodeActionTitle = { fg = colors.color7 },
-    LspSagaDefPreviewBorder = { fg = colors.color4 },
-    LspSagaFinderSelection = { fg = colors.color1 },
-    LspSagaHoverBorder = { fg = colors.color7 },
-    LspSagaRenameBorder = { fg = colors.color4 },
-    LspSagaSignatureHelpBorder = { fg = colors.color11 },
-    ReferencesCount = { fg = colors.color6 },
-    ReferencesIcon = { fg = colors.color7 },
-    TargetWord = { fg = colors.color7 },
-
-    -- LspTrouble
-    LspTroubleCount = { fg = colors.color6, bg = colors.foreground },
-    LspTroubleNormal = { fg = colors.foreground, bg = colors.transparent },
-    LspTroubleText = { fg = colors.foreground },
-
-    -- Neogit
-    NeogitBranch = { fg = colors.color6 },
-    NeogitDiffAddHighlight = { fg = colors.color4, bg = colors.color4 },
-    NeogitDiffContextHighlight = { bg = colors.transparent, fg = colors.foreground },
-    NeogitDiffDeleteHighlight = { fg = colors.color11, bg = colors.color11 },
-    NeogitHunkHeader = { bg = colors.transparent, fg = colors.foreground },
-    NeogitHunkHeaderHighlight = { bg = colors.foreground, fg = colors.color7 },
-    NeogitRemote = { fg = colors.color6 },
-
-    -- nvim-navic
-    NavicIconsArray = { bg = colors.transparent, fg = colors.color3 },
-    NavicIconsBoolean = { bg = colors.transparent, fg = colors.color2 },
-    NavicIconsClass = { bg = colors.transparent, fg = colors.color2 },
-    NavicIconsConstant = { bg = colors.transparent, fg = colors.color14 },
-    NavicIconsConstructor = { bg = colors.transparent, fg = colors.color9 },
-    NavicIconsEnum = { bg = colors.transparent, fg = colors.color10 },
-    NavicIconsEnumMember = { bg = colors.transparent, fg = colors.color7 },
-    NavicIconsEvent = { bg = colors.transparent, fg = colors.color9 },
-    NavicIconsField = { bg = colors.transparent, fg = colors.color8 },
-    NavicIconsFile = { bg = colors.transparent, fg = colors.color2 },
-    NavicIconsFunction = { bg = colors.transparent, fg = colors.color12 },
-    NavicIconsInterface = { bg = colors.transparent, fg = colors.color11 },
-    NavicIconsKey = { bg = colors.transparent, fg = colors.color5 },
-    NavicIconsMethod = { bg = colors.transparent, fg = colors.color3 },
-    NavicIconsModule = { bg = colors.transparent, fg = colors.color3 },
-    NavicIconsNamespace = { bg = colors.transparent, fg = colors.color2 },
-    NavicIconsNull = { bg = colors.transparent, fg = colors.color6 },
-    NavicIconsNumber = { bg = colors.transparent, fg = colors.color1 },
-    NavicIconsObject = { bg = colors.transparent, fg = colors.color4 },
-    NavicIconsOperator = { bg = colors.transparent, fg = colors.color10 },
-    NavicIconsPackage = { bg = colors.transparent, fg = colors.color3 },
-    NavicIconsProperty = { bg = colors.transparent, fg = colors.color7 },
-    NavicIconsString = { bg = colors.transparent, fg = colors.color15 },
-    NavicIconsStruct = { bg = colors.transparent, fg = colors.color8 },
-    NavicIconsTypeParameter = { bg = colors.transparent, fg = colors.color11 },
-    NavicIconsVariable = { bg = colors.transparent, fg = colors.color13 },
-    NavicSeparator = { bg = colors.transparent, fg = colors.foreground },
-    NavicText = { bg = colors.transparent, fg = colors.foreground },
-
-    -- nvim-scrollbar
-    ScrollbarCursorHandle = { bg = colors.color12 },
-    ScrollbarHandle = { bg = colors.color2 },
-
-    -- NvimTree
-    NvimTreeFolderIcon = { fg = colors.color2, bg = colors.transparent },
-    NvimTreeGitDeleted = { fg = colors.color11 },
-    NvimTreeGitDirty = { fg = colors.color5 },
-    NvimTreeGitNew = { fg = colors.color4 },
-    NvimTreeImageFile = { fg = colors.foreground },
-    NvimTreeIndentMarker = { fg = colors.foreground },
-    NvimTreeNormal = { fg = colors.foreground, bg = colors.transparent },
-    NvimTreeNormalNC = { fg = colors.foreground, bg = colors.transparent },
-    NvimTreeRootFolder = { fg = colors.color6 },
-    NvimTreeSpecialFile = { fg = colors.color6 },
-    NvimTreeStatusLineNC = { bg = colors.transparent, fg = colors.transparent },
-    NvimTreeSymlink = { fg = colors.color7 },
+    BlinkCmpGhostText = { fg = colors.color9, bg = colors.transparent },
+    BlinkCmpDoc = { fg = colors.color10, bg = colors.transparent },
+    BlinkCmpDocCursorLine = { fg = colors.color3, bg = colors.transparent },
+    BlinkCmpSignatureHelpActiveParameter = { fg = colors.color6, bg = colors.transparent },
 
     -- Telescope
     TelescopeBorder = { fg = colors.color5, bg = colors.transparent },
