@@ -144,8 +144,7 @@ M.highlights_base = function(colors)
     SnacksPickerGitStatusUntracked = { fg = colors.color1 },
 
     -- BlinkCmp
-    BlinkCmpMenu = { bg = colors.transparent },
-    BlinkCmpMenuBorder = { fg = colors.background },
+    BlinkCmpMenu = { fg = colors.color2, bg = colors.transparent },
     BlinkCmpMenuSelection = { fg = colors.color8, bg = colors.transparent },
     BlinkCmpScrollBarThumb = { fg = colors.color8, bg = colors.transparent },
     BlinkCmpScrollBarGutter = { fg = colors.color7, bg = colors.transparent },
